@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; /* Light grayish background */
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #e74c3c; /* Red */
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Animated Heading */
+.animated-text {
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Profile Image */
+.profile-img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 2px solid #27ae60; /* Green */
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #27ae60; /* Green */
+    color: white;
+}
+
+/* Lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #f39c12; /* Orange */
+    color: white;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+li:hover {
+    transform: scale(1.05);
+    background: #e67e22; /* Darker Orange */
+}
+
+/* Form */
+input, button {
+    padding: 10px;
+    margin: 5px;
+    width: 80%;
+    border: 2px solid #2980b9; /* Blue */
+    border-radius: 5px;
+}
+
+button {
+    background-color: #2980b9; /* Blue */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #1f618d; /* Darker Blue */
+}
+
+/* Social Links */
+.social-links i {
+    font-size: 40px;
+    margin: 10px;
+    color: #9b59b6; /* Purple */
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-links i:hover {
+    transform: scale(1.2);
+    color: #8e44ad; /* Darker Purple */
+}
+
+.i {
+    font-size: 45px;
+    margin: 25px;
+}
+
+/* Keyframe Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
